@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: guestbook-ui
-  label:
+  labels:
     app: guestbook-ui
 spec:
   replicas: 1
